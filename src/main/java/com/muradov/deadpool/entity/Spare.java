@@ -65,8 +65,8 @@ public class Spare {
 
     @Override
     public String toString() {
-        return "Spare [SpareId = " + spareId + "name of Spare" + spareName + "was made " + dateOfCreature
-                + "for car - " + carModel + " costs - " + price + "\n]";
+        return "<hr>Spare [SpareId = " + spareId + " name of Spare " + spareName + " was made " + dateOfCreature
+                + " for car - " + carModel + " costs - " + price + "] </hr>";
     }
 }
 
