@@ -28,7 +28,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception{
         auth.inMemoryAuthentication().withUser("sean").password("{noop}pass@123").roles(Role.USER.name());
-        auth.inMemoryAuthentication().withUser("martin").password("{noop}pass@123").roles(Role.USER.name(),
+        auth.inMemoryAuthentication().withUser("martin").password("{noop}pass@1234").roles(Role.USER.name(),
                 Role.ADMIN.name());
     }
 
